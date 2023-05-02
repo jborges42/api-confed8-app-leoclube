@@ -4,7 +4,8 @@ import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, se
 import express from 'express';
 
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000;
+
 dotenv.config();
 
 app.use(express.json());
@@ -68,5 +69,3 @@ app.post('/register', async (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 });
-
-export default app;
