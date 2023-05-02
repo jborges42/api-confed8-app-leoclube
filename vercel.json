@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "entrypoint": "index.js",
     "builds": [
         {
             "src": "index.js",
