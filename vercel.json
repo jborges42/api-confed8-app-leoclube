@@ -9,19 +9,19 @@
     "routes": [
         {
             "src": "/login",
-            "dest": "server.js"
+            "dest": "index.js"
         },
         {
             "src": "/reset-password",
-            "dest": "server.js"
+            "dest": "index.js"
         },
         {
             "src": "/register",
-            "dest": "server.js"
+            "dest": "index.js"
         },
         {
             "src": "/(.*)",
-            "dest": "server.js"
+            "dest": "index.js"
         }
     ]
 }
