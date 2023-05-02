@@ -5,7 +5,8 @@
   "description": "API XXIV ConfeD8 - LeoClube Omega Fraiburgo",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
