@@ -23,7 +23,7 @@ const firebaseApp = initializeApp(firebaseConfig);
 const auth = getAuth(firebaseApp);
 
 app.get('/', (req, res) => {
-  res.send(`Running on port ${port}`)
+  res.redirect(process.env.CONFE_SITE)
 })
 // Rota de login
 app.post('/login', async (req, res) => {
